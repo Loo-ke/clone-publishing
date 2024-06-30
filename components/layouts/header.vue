@@ -3,26 +3,28 @@
     <div
       class="flex gap-2 justify-start items-center text-sm font-medium text-gray-300 px-4"
     >
-      <div class="flex gap-1 text-black">
-        <div>icon</div>
+      <div class="flex gap-1 text-black items-center">
+        <div><IconLogoIt /></div>
         <div>요즘 IT</div>
       </div>
       <div>|</div>
-      <div class="flex gap-1">
-        <div>icon</div>
+      <div class="flex gap-1 text-gray-300 items-center">
+        <div><IconLogoWishBlack /></div>
         <div>위시켓</div>
       </div>
     </div>
     <div class="flex justify-between items-center px-4">
-      <div class="py-7">logo</div>
-      <ul class="list-none flex justify-end gap-2 items-center">
+      <div class="py-7" @click="$router.push('/')">
+        <img src="/assets/image/요즘IT_로고 1.png" />
+      </div>
+      <ul class="list-none flex justify-end gap-3 items-center">
         <li>
           <div class="text-sm font-medium border rounded-full px-2 py-1">
             작가 지원
           </div>
         </li>
-        <li>돋보기</li>
-        <li>메뉴</li>
+        <li><IconSearch /></li>
+        <li><IconMenu /></li>
       </ul>
     </div>
     <div class="border-b">

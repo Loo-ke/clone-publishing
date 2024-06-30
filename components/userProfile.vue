@@ -1,6 +1,6 @@
 <template>
-  <div class="text-xs text-[#9E9E9E] space-x-2">
-    <span>{{ userImg == '' ? 'img' : userImg }}</span>
+  <div class="text-xs text-[#9E9E9E] flex justify-start gap-2 items-center">
+    <IconUser />
     <span>{{ userName }}</span>
   </div>
 </template>

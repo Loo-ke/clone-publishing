@@ -8,8 +8,9 @@
       <div class="pb-2 text-[#757575]">{{ data.category }}</div>
       <div>
         <span class="text-lg">{{ data.title }}</span>
-        <div class="text-xs">
-          <span>icon {{ data.min }}</span>
+        <div class="text-xs flex items-center justify-start gap-2">
+          <IconClock />
+          <span> {{ data.min }}</span>
           <span>{{ data.day }}</span>
         </div>
       </div>

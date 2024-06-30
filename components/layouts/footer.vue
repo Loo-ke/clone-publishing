@@ -3,8 +3,12 @@
     <div class="flex flex-col gap-6 px-6 w-full">
       <div class="font-bold text-sm text-[#616161]">서비스 전체보기</div>
       <div class="flex text-xs font-medium gap-6 text-[#616161]">
-        <div><span>icon</span>위시켓</div>
-        <div><span>icon</span>요즘IT</div>
+        <div class="flex justify-start gap-1">
+          <span><IconLogoWish /></span>위시켓
+        </div>
+        <div class="flex justify-start gap-1">
+          <span><IconLogoIt /></span><span> 요즘IT </span>
+        </div>
       </div>
       <hr />
       <div class="space-y-2 text-xs font-normal text-[#616161]">
@@ -59,14 +63,14 @@
           </ul>
         </div>
         <div class="flex text-xs font-medium text-[#9E9E9E]">
-          <span>icon</span>
+          <span> &copy;</span>
           <span>2013 Wishket Corp.</span>
         </div>
       </div>
       <div class="flex justify-start items-center gap-3">
-        <div>icon</div>
-        <div>icon</div>
-        <div>icon</div>
+        <div class="border rounded-full p-2"><IconFacebook /></div>
+        <div class="border rounded-full p-2"><IconLinkedin /></div>
+        <div class="border rounded-full p-2"><IconTwitter /></div>
       </div>
     </div>
   </footer>

@@ -1,8 +1,9 @@
 <template>
   <div>
-    <contentsSec1 :data="mainData" />
+    <contentsSec1 :data="mainData" @click="$router.push('/post')" />
     <contentsSec2
       v-for="data of sec2Data"
+      @click="$router.push('/post')"
       :title="data.title"
       :userName="data.userName"
       :userImg="data.userImg"
@@ -26,7 +27,11 @@
       </div>
     </div>
 
-    <contentsSec1 v-for="data of sec1Data" :data="data" />
+    <contentsSec1
+      v-for="data of sec1Data"
+      @click="$router.push('/post')"
+      :data="data"
+    />
     <!-- spacer -->
     <div class="py-10"></div>
     <contentsSec3
